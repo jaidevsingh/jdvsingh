@@ -3,6 +3,7 @@
 echo "huhu";
 // Turn off all error reporting
 error_reporting(0);
+echo "hi";
 function curl_get_contents($url) {
 	$ch = curl_init();
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
