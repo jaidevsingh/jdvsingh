@@ -1,5 +1,6 @@
 
-<?php 
+<?php   
+
 // Turn off all error reporting
 error_reporting(0);
 function curl_get_contents($url) {
